@@ -237,7 +237,7 @@ func defaultKeymap() map[int][]action {
 	keymap[tui.BTab] = toActions(actToggleUp)
 	keymap[tui.CtrlJ] = toActions(actDown)
 	keymap[tui.CtrlK] = toActions(actUp)
-	keymap[tui.CtrlL] = toActions(actClearScreen)
+	keymap[tui.CtrlL] = toActions(actAccept)
 	keymap[tui.CtrlM] = toActions(actAccept)
 	keymap[tui.CtrlN] = toActions(actDown)
 	keymap[tui.CtrlP] = toActions(actUp)
